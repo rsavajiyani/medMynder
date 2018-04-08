@@ -1,0 +1,19 @@
+.header {
+  background-color: #a1c9c8;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.app-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+  margin: 0px;
+}
+
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
