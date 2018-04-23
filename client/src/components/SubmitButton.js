@@ -4,13 +4,13 @@ export const SubmitButton = props => (
   <button
     {...props}
     className="waves-effect waves-light btn-large"
+
     type="submit"
     name="action"
     style={{ fontFamily: "IBM Plex Sans" }}
     message="message"
-    
   >
-    Submit<i className="material-icons right">send</i>
+    Submit<i className="material-icons right-align">send</i>
     {props.children}
   </button>
 );

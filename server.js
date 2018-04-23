@@ -3,6 +3,11 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
+
+// const cookieSession = require('cookie-session');
+// const passport = require('passport');
+// const passportSetup = require('./config/passport-setup');
+
 const PORT = process.env.PORT || 3001;
 
 // Configure body parser for AJAX requests
@@ -10,7 +15,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // Serve up static assets
 app.use(express.static("client/build"));
-// Add routes, both API and view
+
+// // routes for authentication
+// app.use('/auth', authRoutes);
+
+// // routes for profile
+// app.use('/profile', profileRoutes);
+
+// routes for everything else
 app.use(routes);
 
 // Set up promises with mongoose

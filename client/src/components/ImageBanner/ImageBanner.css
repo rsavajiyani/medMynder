@@ -1,0 +1,49 @@
+#index-banner {
+	height:550px;
+	 background: url("../../images/12345.jpg");
+	 background-repeat: no-repeat;
+	
+
+  background-size:100%;
+ background-position: center;
+ 
+ 
+  position:relative;
+  margin-top: 70px;
+
+
+
+     /*opacity: .4; */
+   /* /*height: 100em;*/
+}
+
+#banner{
+	font-family: 'IBM Plex Sans', sans-serif;
+
+
+	
+
+}
+
+
+
+.logo{
+	float:right;
+	margin-right: 200px;
+	margin-top: 60px;
+
+}
+
+#logo2{
+	
+	margin-top: 150px;
+	/* margin-right: 10px; */
+	float:right;
+	
+}
+
+#cellicon {
+	width:80px;
+	height:auto;
+
+}

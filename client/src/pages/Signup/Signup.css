@@ -1,24 +1,30 @@
-h4 { 
+h4 {
   text-align: left;
-  font-family: 'IBM Plex Sans',
-  sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 40px;
-  
-
 }
 
-#first_name, #last_name, #phone, #email_inline, #notes, #dateOfBirth, #password_inline, label {
+#first_name,
+#last_name,
+#phone,
+#email_inline,
+#notes,
+#dateOfBirth,
+#password_inline,
+label {
   color: black;
-  font-family: 'IBM Plex Sans',
-  sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 40px;
 }
+
 form {
   color: black;
 }
+
 .input-field {
   color: black;
 }
+
 #page {
   text-align: center;
 
@@ -27,51 +33,8 @@ input.validate{
   color:navy;
 }
 
-/* If you want to change the underline color it is here */
-/* label focus color */
-
-.input-field input:focus+label {
-  color: navy !important;
-}
-
-/* label underline focus color */
-
-.row .input-field input:focus {
-  border-bottom: 1px solid navy !important;
-  box-shadow: 0 1px 0 0 navy !important
-}
-/* if you use placeholder text, here is how you change color */
-::-webkit-input-placeholder {
-  /* WebKit, Blink, Edge */
-  color: #909;
-}
-
-:-moz-placeholder {
-  /* Mozilla Firefox 4 to 18 */
-  color: #909;
-  opacity: 1;
-}
-
-::-moz-placeholder {
-  /* Mozilla Firefox 19+ */
-  color: #909;
-  opacity: 1;
-}
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #909;
-}
-
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #909;
-}
-
-::placeholder {
-  /* Most modern browsers support this now. */
-  color: #909;
-}
-validate{
-  color:blue;
+#registerform {
+  margin-right: 200px;
+   
+    
 }

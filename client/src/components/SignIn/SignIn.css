@@ -1,0 +1,29 @@
+#form{
+	
+	height:500px;
+	width:450px;
+}
+
+#signincard{
+	position:absolute;
+	margin-top: 450px;
+	margin-left: 243px;
+	top:0;
+	width:35%;
+	height:60%;
+
+	background-color: rgba(255,255,255,1);
+	border-style: ridge;
+}
+
+#login {
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#icon {
+	width: 60px;
+	height:auto;
+}

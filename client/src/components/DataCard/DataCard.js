@@ -1,21 +1,35 @@
-import React from "react";
-// import Label from "../Label";
-import Input from "../../components/Input";
+import React, { Component } from "react";
 import Table from "../../components/Table";
 import "./DataCard.css";
+import TableData from "../../components/TableData";
+import DeleteButton from "../../components/DeleteButton";
 
-export const DataCard = props => (
-  <div className="col m6">
-    <div className="card">
-      <div className="card-content">
-        
+ class DataCard extends Component {
+  constructor(props) {
+    super(props);
+    console.log("props", props); //is empty string
+    this.state = {
+      medicines: this.props.medicines,
+     
       
-        <Table />
-        
-      </div>
-    </div>
-  </div>
+    };
+
+  }
 
 
-);
-export default DataCard;
+render() {
+  return (
+
+
+
+     <Table /> 
+
+      
+
+
+        );
+  
+            
+}
+}
+export default Table;

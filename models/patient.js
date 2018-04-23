@@ -16,10 +16,12 @@ const patientSchema = new Schema({
   gender: {
     type: String
   },
-  // age: {
-  //   type: Number,
-  //   required: true
-  // }, y tho
+  username: {
+    type: String
+  },
+  password: {
+    type: String
+  },
   phone: {
     type: Number,
     required: true
@@ -32,7 +34,7 @@ const patientSchema = new Schema({
   // },
   // allergies: {
   //   type: String
-  // },
+  // }, will work on these after we finish our MVP
   medicines: [{
     type: Schema.Types.ObjectId, ref: 'Medicine'
   }]  
